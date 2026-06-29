@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول | جيمنج زون</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Shahooda Gaming <span>Zone</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+                <li><a href="login.html" class="btn-login active">تسجيل الدخول</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="auth-container">
+        <div class="auth-box">
+            <h2>تسجيل الدخول للمتجر</h2>
+            <p style="text-align: center; color: #c5c6c7; margin-bottom: 25px; font-size: 14px;">
+                مرحباً بك مجدداً في عالم المحترفين
+            </p>
+            
+            <form onsubmit="event.preventDefault(); alert('🔑 تم تسجيل الدخول بنجاح!');">
+                <div class="form-group">
+                    <label>البريد الإلكتروني</label>
+                    <input type="email" placeholder="example@domain.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>كلمة المرور</label>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+                
+                <button type="submit" class="btn-submit">دخول</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 جميع الحقوق محفوظة لـ Shahooda Gaming Zone</p>
+    </footer>
+
+</body>
+</html>
