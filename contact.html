@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | جيمنج زون</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 1. القائمة العلوية الموحدة (Navbar) -->
+    <div class="navbar">
+        <div class="logo">Shahooda Gaming <span>Zone</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="contact.html" class="active">تواصل معنا</a></li>
+                <li><a href="login.html" class="btn-login">تسجيل الدخول</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- 2. فورم تواصل معنا بتنسيق الصفحة الرئيسية الفخم -->
+    <main class="auth-container">
+        <div class="auth-box">
+            <h2>تواصل معنا</h2>
+            <p style="text-align: center; color: #c5c6c7; margin-bottom: 25px; font-size: 14px;">
+                يسعدنا سماع رأيك أو تقديم الدعم لك
+            </p>
+            
+            <form onsubmit="event.preventDefault(); alert('📨 تم إرسال رسالتك بنجاح، سنرد عليك قريباً!');">
+                <div class="form-group">
+                    <label>نص الرسالة</label>
+                    <textarea placeholder="اكتب رسالتك هنا..." rows="5" required style="resize: none;"></textarea>
+                </div>
+                
+                <button type="submit" class="btn-submit">إرسال الرسالة</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- 3. الفوتر الموحد -->
+    <footer>
+        <p>&copy; 2026 جميع الحقوق محفوظة لـ Shahooda Gaming Zone</p>
+    </footer>
+
+</body>
+</html>
